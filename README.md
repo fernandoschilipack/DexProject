@@ -11,11 +11,10 @@ This repository contains a complete demo project that simulates sending DEX file
 
 ```
 DexProject/
-├── DexApi/								# ASP.NET Core 9 Minimal API (DEX endpoint)
-├── DexMaui/							# .NET MAUI App (2 buttons to send DEX data)
-├── DexProject.sln						# Visual Studio solution including both projects
-├── Dex API.postman_collection.json     # Collection to test the api isolated
-├── SQL tables & proc.sql				# SQL server general config scripts 
+├── DexApi/             # ASP.NET Core 9 Minimal API (DEX endpoint)
+├── DexMaui/            # .NET MAUI App (2 buttons to send DEX data)
+└── DexProject.sln      # Visual Studio solution including both projects
+
 ```
 
 ---
