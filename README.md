@@ -71,7 +71,7 @@ Password: NFsZGmHAGWJSZ#RuvdiV
 
 - The API validates request format and DEX content.
 - The MAUI app uses **CommunityToolkit.MVVM** and follows the MVVM pattern.
-- Database backup is available as `.bak` in the root or `/Db`.
+- Database backup is available as `.bak` in the root or `/Db`, also, the entire creation of tables and procedures is available if needed.
 
 ---
 

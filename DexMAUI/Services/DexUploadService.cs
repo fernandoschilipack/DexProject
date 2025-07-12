@@ -10,7 +10,7 @@ namespace DexMAUI.Services
     public class DexUploadService
     {
         private readonly HttpClient _httpClient;
-        private const string ApiUrl = "http://localhost:5027/vdi-dex"; // Atualize com o endpoint real
+        private const string ApiUrl = "http://localhost:5001/vdi-dex"; // add here the localhost
 
         public DexUploadService()
         {
