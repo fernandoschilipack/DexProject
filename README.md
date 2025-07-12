@@ -11,9 +11,11 @@ This repository contains a complete demo project that simulates sending DEX file
 
 ```
 DexProject/
-├── DexApi/             # ASP.NET Core 9 Minimal API (DEX endpoint)
-├── DexMaui/            # .NET MAUI App (2 buttons to send DEX data)
-└── DexProject.sln      # Visual Studio solution including both projects
+├── DexApi/								# ASP.NET Core 9 Minimal API (DEX endpoint)
+├── DexMaui/							# .NET MAUI App (2 buttons to send DEX data)
+├── DexProject.sln						# Visual Studio solution including both projects
+├── Dex API.postman_collection.json     # Collection to test the api isolated
+├── SQL tables & proc.sql				# SQL server general config scripts 
 ```
 
 ---
@@ -35,7 +37,7 @@ DexProject/
 
 Open `DexProject.sln` in Visual Studio.
 
-- Run open the developer terminal and run a quick `dotnet clean`, `dotnet restore` in the solution
+- Run open the developer terminal and run a quick `dotnet clean`, `dotnet restore` and `dotnet build` in the solution
 
 ### 2. Configure Startup Projects
 
