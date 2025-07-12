@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "84b9fe53-c6b6-4d1e-a7b4-007ff8f3387b",
+		"name": "Dex API",
+		"description": "Demo API for the techinal test for Vendys",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10945933"
+	},
+	"item": [
+		{
+			"name": "Send Dex Machine File A",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"description": "add the .txt dex file machine here",
+							"type": "file",
+							"src": "postman-cloud:///1f05f1ab-349c-44f0-98fa-20b77dcdccc1"
+						},
+						{
+							"key": "machine",
+							"value": "B",
+							"description": "Machine A or B",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:44324/vdi-dex",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44324",
+					"path": [
+						"vdi-dex"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "NFsZGmHAGWJSZ#RuvdiV",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "vendsys",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
