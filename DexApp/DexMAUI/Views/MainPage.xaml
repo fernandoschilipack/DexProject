@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DexMAUI.Views.MainPage">
+
+    <ScrollView>
+         <VerticalStackLayout Padding="20" Spacing="20">
+
+            <Image Source="dexlogo.png" Aspect="Center" WidthRequest="150" HeightRequest="150"></Image>
+             
+            <Button Text="Send DEX - Button A"
+                    BackgroundColor="#1f64ae"
+                     FontAttributes="Bold"
+                Command="{Binding SendDexACommand}" />
+
+            <Button Text="Send DEX - Button B"
+                    FontAttributes="Bold"
+                    BackgroundColor="#1f64ae"
+                Command="{Binding SendDexBCommand}" />
+            <Label Text="Response" TextColor="Black"  FontSize="Subtitle"></Label>
+            <Border>
+            <Label Text="{Binding StatusMessage}"
+               FontSize="16"
+               TextColor="DarkBlue"
+               FontFamily="PoppinsRegular"
+               FontAttributes="Bold"
+               LineBreakMode="WordWrap" />
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
